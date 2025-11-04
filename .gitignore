@@ -1,5 +1,4 @@
 .vscode/
 
-Problems/*
-!Problems/*/
-
+*.o
+*.exe
