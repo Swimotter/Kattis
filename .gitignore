@@ -1,0 +1,5 @@
+.vscode/
+
+Problems/*
+!Problems/*/
+
