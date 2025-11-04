@@ -6,14 +6,13 @@ using namespace std;
 #define FOR(i, a, b) for (int i = a; i < b; ++i)
 #define FORD(i, a, b) for (int i = a - 1; i >= b; --i)
 #define ALL(v) v.begin(), v.end()
-#define INPUT(...) (cin >> ... >> __VA_ARGS__)
 typedef long long ll;
 typedef unsigned long long ull;
 typedef pair<int, int> pii;
 typedef vector<int> vi;
 
 void solve() {
-	
+
 }
 
 int main() {
