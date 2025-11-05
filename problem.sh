@@ -5,19 +5,24 @@ if [ "$#" -ne 1 ]; then
 	exit 1
 fi
 
-problem="$1"
+problem=$(echo "$1" | tr ' ' '_' | tr -cd '[:alnum:]_')
+
+if [[ -z "$problem" ]]; then
+    echo "Problem name must contain at least one alphanumeric character"
+    exit 1
+fi
 
 if [[ "$problem" == *.* ]]; then
 	echo "Problem name cannot contain an extension"
 	exit 1
 fi
 
-if [[ -d "Problems/$1" ]]; then
+if [[ -d "Problems/$problem" ]]; then
 	echo "Problem folder already exists"
 	exit 1
 fi
 
-mkdir -p "Problems/$1"
-cp template.cpp "Problems/$1/$1.cpp"
+mkdir -p "Problems/$problem"
+cp template.cpp "Problems/$problem/$problem.cpp"
 
-echo "Problems/$1" >> problemList.txt
+echo "Problems/$problem" >> problemList.txt
