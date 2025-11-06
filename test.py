@@ -25,18 +25,18 @@ def test(problem_folder):
 		print(compile_result.stderr)
 		sys.exit(1)
 
-	test_folder = os.path.join(problem_folder, "test")
+	test_folder = os.path.join(problem_folder, "tests")
 	test_files = list(Path(test_folder).glob("*.in"))
 	for file in test_files:
 		with open(file, "r") as f:
 			run_result = subprocess.run(
-				["./soln.exe"],
+				["build/soln.exe"],
 				stdin=f,
 				capture_output=True,
 				text=True
 			)
 
-		solution_file = file.with_suffix(".out")
+		solution_file = file.with_suffix(".ans")
 		solution = solution_file.read_text().strip()
 		actual = run_result.stdout.strip()
 
