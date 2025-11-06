@@ -1,5 +1,5 @@
 solved: 2
-attempted: 2
+attempted: 3
 problems:
   artichoke:
     title: Amalgamated Artichokes
@@ -13,3 +13,9 @@ problems:
     url: https://open.kattis.com/problems/stararrangements
     solution: ./Problems/stararrangements
     solved: true
+  purplerain:
+    title: Purple Rain
+    difficulty: 3.9
+    url: https://open.kattis.com/problems/purplerain
+    solution: ./Problems/purplerain
+    solved: false
