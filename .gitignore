@@ -1,4 +1,6 @@
 .vscode/
+.venv/
 
+build/
 *.o
 *.exe

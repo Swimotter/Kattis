@@ -5,4 +5,4 @@ if [ "$#" -ne 1 ]; then
 	exit 1
 fi
 
-python problem.py $1 Problems problems.yaml
+python test.py $1 Problems problems.yaml

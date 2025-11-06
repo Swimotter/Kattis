@@ -1,0 +1,5 @@
+-r kattis-cli/requirements.txt
+
+requests
+beautifulsoup4
+PyYAML

@@ -1,0 +1,9 @@
+solved: 1
+attempted: 1
+problems:
+  artichoke:
+    title: Amalgamated Artichokes
+    difficulty: 2.3
+    url: https://open.kattis.com/problems/artichoke
+    solution: ./Problems/artichoke
+    solved: true
