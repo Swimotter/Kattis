@@ -12,8 +12,35 @@ typedef pair<int, int> pii;
 typedef vector<int> vi;
 typedef vector<vi> vvi;
 
-void solve() {
+bool helper(int a, int b, int s, int c) {
+	while (c < s) {
+		c += a + b;
+	}
+	if (c == s) {
+		return true;
+	}
 
+	c -= (a + b);
+	c += a;
+
+	return c == s;
+}
+
+void solve() {
+	int s;
+	cin >> s;
+
+	cout << s << ":" << endl;
+	FOR(i, 2, (s + 1) / 2 + 1) {
+		int c = 0;
+
+		if (helper(i, i - 1, s, 0)) {
+			cout << i << "," << i - 1<< endl;
+		}
+		if (helper(i, i, s, 0)) {
+			cout << i << "," << i << endl;
+		}
+	}
 }
 
 int main() {

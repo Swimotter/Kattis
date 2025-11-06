@@ -1,4 +1,4 @@
-solved: 1
+solved: 2
 attempted: 2
 problems:
   artichoke:
@@ -12,4 +12,4 @@ problems:
     difficulty: 1.8
     url: https://open.kattis.com/problems/stararrangements
     solution: ./Problems/stararrangements
-    solved: false
+    solved: true
