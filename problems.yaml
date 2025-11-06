@@ -1,4 +1,4 @@
-solved: 2
+solved: 3
 attempted: 3
 problems:
   artichoke:
@@ -18,4 +18,4 @@ problems:
     difficulty: 3.9
     url: https://open.kattis.com/problems/purplerain
     solution: ./Problems/purplerain
-    solved: false
+    solved: true
