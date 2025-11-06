@@ -1,5 +1,5 @@
 solved: 3
-attempted: 3
+attempted: 4
 problems:
   artichoke:
     title: Amalgamated Artichokes
@@ -19,3 +19,9 @@ problems:
     url: https://open.kattis.com/problems/purplerain
     solution: ./Problems/purplerain
     solved: true
+  playingtheslots:
+    title: Playing the Slots
+    difficulty: 2.8
+    url: https://open.kattis.com/problems/playingtheslots
+    solution: ./Problems/playingtheslots
+    solved: false
