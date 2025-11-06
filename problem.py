@@ -105,6 +105,7 @@ if __name__ == "__main__":
 		print(f"Problem ID '{problem_id}' not found", file=sys.stderr)
 		sys.exit(1)
 
+	os.makedirs(problem_folder)
 	template_file = os.path.join(os.curdir, "template.cpp")
 	solution_file = os.path.join(problem_folder, f"{problem_id}.cpp")
 	shutil.copyfile(template_file, solution_file)
