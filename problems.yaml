@@ -1,5 +1,5 @@
 solved: 1
-attempted: 1
+attempted: 2
 problems:
   artichoke:
     title: Amalgamated Artichokes
@@ -7,3 +7,9 @@ problems:
     url: https://open.kattis.com/problems/artichoke
     solution: ./Problems/artichoke
     solved: true
+  stararrangements:
+    title: Star Arrangements
+    difficulty: 1.8
+    url: https://open.kattis.com/problems/stararrangements
+    solution: ./Problems/stararrangements
+    solved: false
