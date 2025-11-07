@@ -1,5 +1,5 @@
-solved: 3
-attempted: 4
+solved: 4
+attempted: 5
 problems:
   artichoke:
     title: Amalgamated Artichokes
@@ -25,3 +25,9 @@ problems:
     url: https://open.kattis.com/problems/playingtheslots
     solution: ./Problems/playingtheslots
     solved: false
+  shuffles:
+    title: Shuffles
+    difficulty: 4.7
+    url: https://open.kattis.com/problems/shuffles
+    solution: ./Problems/shuffles
+    solved: true
