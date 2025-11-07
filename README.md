@@ -8,7 +8,8 @@ Solutions to problems from the [Kattis archives](https://open.kattis.com/)
 | [Amalgamated Artichokes](./Problems/artichoke) | 2.3 | [![](https://open.kattis.com/favicon)](https://open.kattis.com/problems/artichoke) |
 | [Star Arrangements](./Problems/stararrangements) | 1.8 | [![](https://open.kattis.com/favicon)](https://open.kattis.com/problems/stararrangements) |
 
-## Attempted Problems (1)
+## Attempted Problems (2)
 | Attempt | Difficulty | :link: |
 | - | - | - |
+| [Shuffles](./Problems/shuffles) | 4.7 | [![](https://open.kattis.com/favicon)](https://open.kattis.com/problems/shuffles) |
 | [Playing the Slots](./Problems/playingtheslots) | 2.8 | [![](https://open.kattis.com/favicon)](https://open.kattis.com/problems/playingtheslots) |
