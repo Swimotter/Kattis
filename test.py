@@ -40,13 +40,24 @@ def test(problem_folder):
 		solution = solution_file.read_text().strip()
 		actual = run_result.stdout.strip()
 
-		if actual != solution:
-			print("There was an error with the solution!")
-			print("Expected:")
-			print(solution)
-			print("Got:")
-			print(actual)
-			return False
+		try:
+			solution = float(solution)
+			actual = float(actual)
+			if abs(actual - solution) > 0.00000001:
+				print("There was an error with the solution!")
+				print("Expected:")
+				print(solution)
+				print("Got:")
+				print(actual)
+				return False
+		except:
+			if actual != solution:
+				print("There was an error with the solution!")
+				print("Expected:")
+				print(solution)
+				print("Got:")
+				print(actual)
+				return False
 
 	print("All tests passed!")
 	return True
